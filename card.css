@@ -1,0 +1,55 @@
+body{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 3px solid skyblue;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-image{
+    height: 70%;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-description{
+    height: 30%;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.location{
+    color:rgb(5, 124, 242); ;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.rating{
+    font-weight: bold;
+    float: left;
+
+    
+
+
+}
+
+.price{
+    float: right;
+    font-weight: bold;
+    color: rgb(5, 124, 242);
+
+
+}
